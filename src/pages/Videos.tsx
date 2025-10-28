@@ -147,7 +147,7 @@ const Videos = () => {
   };
 
   return (
-    <div className="min-h-screen gradient-blue-subtle">
+    <div className="min-h-screen gradient-industrial">
       {/* Header */}
       <header className="bg-card border-b sticky top-0 z-40">
         <div className="container mx-auto px-6 py-4">
@@ -169,7 +169,7 @@ const Videos = () => {
       <div className="container mx-auto px-6 py-12">
         {/* Recommended Section */}
         {recommendedVideos.length > 0 && (
-          <Card className="p-6 mb-8 gradient-blue text-primary-foreground">
+          <Card className="p-6 mb-8 gradient-red text-primary-foreground">
             <div className="flex items-center gap-2 mb-4">
               <Star className="h-6 w-6" />
               <h2 className="text-2xl font-bold">Recommandé pour vous</h2>

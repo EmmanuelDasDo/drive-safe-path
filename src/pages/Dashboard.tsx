@@ -36,7 +36,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen gradient-blue-subtle">
+    <div className="min-h-screen gradient-industrial">
       {/* Header */}
       <header className="bg-card border-b">
         <div className="container mx-auto px-6 py-4">
@@ -180,7 +180,7 @@ const Dashboard = () => {
               </div>
             </Card>
 
-            <Card className="p-6 gradient-blue text-primary-foreground">
+            <Card className="p-6 gradient-red text-primary-foreground">
               <h3 className="text-xl font-bold mb-4">Continuez sur votre lancée !</h3>
               <p className="mb-6 opacity-90">
                 Complétez les modules restants pour obtenir votre attestation

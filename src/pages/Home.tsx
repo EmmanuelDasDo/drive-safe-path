@@ -30,7 +30,7 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${heroImage})` }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-accent-blue/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-primary/80 to-accent-orange/60" />
         </div>
         
         <div className="relative z-10 container mx-auto px-6 text-center">
@@ -63,7 +63,7 @@ const Home = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 gradient-blue-subtle">
+      <section className="py-20 gradient-industrial">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16">
             Une formation complète et interactive
@@ -104,7 +104,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 gradient-blue text-primary-foreground">
+      <section className="py-20 gradient-red text-primary-foreground">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Prêt à commencer votre formation ?

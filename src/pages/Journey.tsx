@@ -74,7 +74,7 @@ const Journey = () => {
   const [userCities] = useState(cities);
 
   return (
-    <div className="min-h-screen gradient-blue-subtle">
+    <div className="min-h-screen gradient-industrial">
       {/* Header */}
       <header className="bg-card border-b sticky top-0 z-40">
         <div className="container mx-auto px-6 py-4">
@@ -100,7 +100,7 @@ const Journey = () => {
             <Card className="p-8 sticky top-24">
               <h2 className="text-2xl font-bold mb-6 text-center">Carte de France</h2>
               
-              <div className="relative aspect-square bg-gradient-to-br from-accent-blue/10 to-primary/5 rounded-lg overflow-hidden">
+              <div className="relative aspect-square gradient-metal rounded-lg overflow-hidden metal-border">
                 {/* SVG Map Background */}
                 <svg viewBox="0 0 400 500" className="w-full h-full opacity-20">
                   <path
