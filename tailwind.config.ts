@@ -23,7 +23,7 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
-        "accent-orange": "hsl(var(--accent-orange))",
+        "accent-yellow": "hsl(var(--accent-yellow))",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",

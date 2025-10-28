@@ -20,7 +20,7 @@ const Auth = () => {
   };
 
   return (
-    <div className="min-h-screen gradient-red flex items-center justify-center p-6">
+    <div className="min-h-screen gradient-orange flex items-center justify-center p-6">
       <div className="w-full max-w-md">
         <Link to="/" className="absolute top-6 left-6">
           <Button variant="ghost" className="text-primary-foreground hover:bg-primary-foreground/10">

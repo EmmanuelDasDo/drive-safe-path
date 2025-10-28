@@ -145,7 +145,7 @@ const Assessment = () => {
     const recommendation = getRecommendation(score);
 
   return (
-    <div className="min-h-screen gradient-industrial py-12 px-6">
+    <div className="min-h-screen gradient-soft py-12 px-6">
         <div className="container mx-auto max-w-4xl">
           <Link to="/">
             <Button variant="ghost" className="mb-6">
@@ -218,7 +218,7 @@ const Assessment = () => {
   const progress = ((currentQuestion + 1) / questions.length) * 100;
 
   return (
-    <div className="min-h-screen gradient-industrial py-12 px-6">
+    <div className="min-h-screen gradient-soft py-12 px-6">
       <div className="container mx-auto max-w-4xl">
         <Link to="/">
           <Button variant="ghost" className="mb-6">

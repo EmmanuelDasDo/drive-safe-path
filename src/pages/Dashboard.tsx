@@ -36,7 +36,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen gradient-industrial">
+    <div className="min-h-screen gradient-soft">
       {/* Header */}
       <header className="bg-card border-b">
         <div className="container mx-auto px-6 py-4">
@@ -134,7 +134,7 @@ const Dashboard = () => {
                     Paris - Alcool & prévention
                   </p>
                 </div>
-                <div className="p-4 bg-accent-blue/5 border-l-4 border-accent-blue rounded">
+                <div className="p-4 bg-accent-yellow/5 border-l-4 border-accent-yellow rounded">
                   <p className="font-medium mb-1">Conseil du jour</p>
                   <p className="text-sm text-muted-foreground">
                     La distance de sécurité doit être adaptée aux conditions météorologiques
@@ -180,7 +180,7 @@ const Dashboard = () => {
               </div>
             </Card>
 
-            <Card className="p-6 gradient-red text-primary-foreground">
+            <Card className="p-6 gradient-orange text-primary-foreground">
               <h3 className="text-xl font-bold mb-4">Continuez sur votre lancée !</h3>
               <p className="mb-6 opacity-90">
                 Complétez les modules restants pour obtenir votre attestation
