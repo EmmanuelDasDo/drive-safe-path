@@ -14,6 +14,9 @@ const Home = () => {
             <span className="text-xl font-bold text-foreground">Séraphim E-Learning</span>
           </div>
           <div className="flex items-center gap-4">
+            <Link to="/videos">
+              <Button variant="ghost">Vidéos</Button>
+            </Link>
             <Link to="/auth">
               <Button variant="ghost">Connexion</Button>
             </Link>
