@@ -34,7 +34,7 @@ const Auth = () => {
             <Shield className="h-8 w-8 text-primary" />
           </div>
           <h1 className="text-3xl font-bold text-primary-foreground mb-2">
-            Séraphim E-Learning
+            formation-securite-transport.fr
           </h1>
           <p className="text-primary-foreground/80">
             Formation en sécurité routière
