@@ -25,39 +25,40 @@ const Home = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-primary/70 to-accent-yellow/50" />
-        </div>
-        
-        <div className="relative z-10 container mx-auto px-6 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
+      <section className="container mx-auto px-6 pt-24 pb-12">
+        {/* Title Section Above Image */}
+        <div className="text-center mb-8">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in">
             La sécurité, c'est l'affaire<br />de tous les conducteurs
           </h1>
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             Découvrez une formation interactive dédiée aux professionnels du transport routier
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/assessment">
-              <Button variant="hero" size="lg">
-                Faire mon bilan de compétences
-                <ArrowRight className="ml-2" />
-              </Button>
-            </Link>
-            <Link to="/journey">
-              <Button variant="outline" size="lg" className="bg-background/10 backdrop-blur-sm border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                Découvrir la formation
-              </Button>
-            </Link>
-          </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-primary-foreground rounded-full flex items-start justify-center p-2">
-            <div className="w-1 h-3 bg-primary-foreground rounded-full" />
+        {/* Hero Image */}
+        <div className="relative rounded-2xl overflow-hidden mb-8 h-[60vh] shadow-2xl">
+          <div 
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${heroImage})` }}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-card/40 to-transparent" />
+          </div>
+
+          <div className="relative z-10 h-full flex items-end p-8">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link to="/assessment">
+                <Button variant="hero" size="lg">
+                  Faire mon bilan de compétences
+                  <ArrowRight className="ml-2" />
+                </Button>
+              </Link>
+              <Link to="/journey">
+                <Button variant="outline" size="lg" className="bg-card/80 backdrop-blur-sm hover:bg-card">
+                  Découvrir la formation
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -104,16 +105,16 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 gradient-orange text-primary-foreground">
+      <section className="py-20 bg-card border-t border-border">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Prêt à commencer votre formation ?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-xl mb-8 text-muted-foreground">
             Évaluez d'abord vos compétences avec notre bilan personnalisé
           </p>
           <Link to="/assessment">
-            <Button variant="hero" size="lg" className="bg-background text-primary hover:bg-background/90">
+            <Button variant="hero" size="lg">
               Démarrer le bilan
               <ArrowRight className="ml-2" />
             </Button>
